@@ -1,0 +1,72 @@
+# Ignore os arquivos de log
+*.log
+*.tlog
+*.log.*
+logs/
+
+# Ignore binários compilados e diretórios de build
+bin/
+obj/
+
+# Ignorar arquivos de pacotes NuGet
+*.nupkg
+*.snupkg
+
+# Pastas de pacotes e dependências
+packages/
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore o cache da pasta de pacotes NuGet
+**/packages/*/
+!**/packages/build/
+!**/packages/repositories.config
+
+# Ignore a pasta de dependências local
+node_modules/
+
+# Ignore os arquivos de configuração e de ambientes locais
+appsettings.Development.json
+appsettings.Local.json
+appsettings*.json
+
+# Arquivos de configuração temporários do Visual Studio e do Rider
+*.sln.ide
+.idea/
+.vscode/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache do sistema
+*.swp
+*.swo
+
+# Arquivos temporários do Rider
+.idea/
+.idea/*
+
+# Configurações de arquivos secretos para Secret Manager
+secrets.json
+
+# Certificados gerados durante o desenvolvimento
+*.pfx
+*.p12
+
+# Resultados de cobertura de código
+coverage/
+
+# Arquivos temporários da depuração do Visual Studio
+*.tsscache
+*.vspx
+
+# Ignorar configurações locais do IIS Express
+.vs/
+
+# Projeto próprio
+sensVar.txt
